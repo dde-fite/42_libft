@@ -6,7 +6,7 @@
 /*   By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 21:28:04 by dde-fite          #+#    #+#             */
-/*   Updated: 2025/12/02 20:29:01 by dde-fite         ###   ########.fr       */
+/*   Updated: 2025/12/02 20:30:19 by dde-fite         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -199,6 +199,6 @@ int		ft_nbrlen(long nbr);
 char	*ft_strndup(const char *s, size_t len);
 
 // Same as ft_atoi but with long integers
-long	ft_atol(const char *nptr)
+long	ft_atol(const char *nptr);
 
 #endif
