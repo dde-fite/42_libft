@@ -6,7 +6,7 @@
 #    By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/15 21:44:11 by dde-fite          #+#    #+#              #
-#    Updated: 2025/10/24 20:56:08 by dde-fite         ###   ########.fr        #
+#    Updated: 2025/12/02 21:58:56 by dde-fite         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,7 +56,7 @@ TOTAL		:= $(words $(SRC))
 
 # GCC COMPILER
 CC			= cc
-CFLAGS		= -Wall -Werror -Wextra -c
+CFLAGS		= -Wall -Werror -Wextra -c -O3 -march=native -fno-semantic-interposition -fno-plt
 
 # AR LIBRARY
 AR			= ar
