@@ -6,7 +6,7 @@
 /*   By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 21:28:04 by dde-fite          #+#    #+#             */
-/*   Updated: 2025/12/16 22:53:46 by dde-fite         ###   ########.fr       */
+/*   Updated: 2025/12/16 23:52:14 by dde-fite         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -212,6 +212,9 @@ long	ft_atol(const char *nptr);
 
 // ft_sqrt
 int		ft_sqrt(int nbr);
+
+// ft_absolute
+int		ft_absolute(int n);
 
 // get_next_line
 char	*get_next_line(int fd);
