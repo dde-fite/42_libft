@@ -6,7 +6,7 @@
 #    By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/15 21:44:11 by dde-fite          #+#    #+#              #
-#    Updated: 2025/12/10 21:36:31 by dde-fite         ###   ########.fr        #
+#    Updated: 2025/12/16 22:54:59 by dde-fite         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,8 +21,8 @@
 # ft_striteri.c, ft_strnstr.c, ft_isalpha.c, ft_maxsize.c, ft_putchar_fd.c,
 # ft_strjoin.c, ft_strrchr.c, ft_isascii.c, ft_memchr.c, ft_putendl_fd.c,
 # ft_strlcat.c, ft_strtrim.c, ft_isdigit.c, , ft_memcmp.c,
-# ft_putnbr_fd.c, ft_strlcpy.c, ft_substr.c, ft_isprint.c, ,
-# ft_memcpy.c, ft_putstr_fd.c, ft_strlen.c, ft_tolower.c.
+# ft_putnbr_fd.c, ft_strlcpy.c, ft_substr.c, ft_isprint.c,
+# ft_memcpy.c, ft_putstr_fd.c, ft_strlen.c, ft_tolower.c, ft_atol.c, ft_sqrt.c.
 
 # Files required for bonus compilation:
 # libft.a (or the name specified in ${NAME}), ft_lstnew_bonus.c,
@@ -50,7 +50,7 @@ SRC			= ft_atoi.c ft_isspace.c ft_memmove.c ft_split.c ft_strmapi.c \
 				ft_memchr.c ft_putendl_fd.c ft_strlcat.c ft_strtrim.c \
 				ft_isdigit.c ft_memcmp.c ft_putnbr_fd.c ft_strlcpy.c \
 				ft_substr.c ft_isprint.c ft_memcpy.c ft_putstr_fd.c \
-				ft_strlen.c ft_tolower.c ft_nbrlen.c ft_atol.c
+				ft_strlen.c ft_tolower.c ft_nbrlen.c ft_atol.c ft_sqrt.c
 OBJ			:= $(patsubst %.c,%.o,$(SRC))
 TOTAL		:= $(words $(SRC))
 

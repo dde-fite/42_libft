@@ -6,7 +6,7 @@
 /*   By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 21:28:04 by dde-fite          #+#    #+#             */
-/*   Updated: 2025/12/02 21:30:36 by dde-fite         ###   ########.fr       */
+/*   Updated: 2025/12/16 22:53:46 by dde-fite         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -209,6 +209,9 @@ char	*ft_strndup_ssize(const char *s, ssize_t len);
 // ft_atol
 // Same as ft_atoi but with long integers
 long	ft_atol(const char *nptr);
+
+// ft_sqrt
+int		ft_sqrt(int nbr);
 
 // get_next_line
 char	*get_next_line(int fd);
