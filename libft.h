@@ -6,7 +6,7 @@
 /*   By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 21:28:04 by dde-fite          #+#    #+#             */
-/*   Updated: 2025/12/17 00:16:21 by dde-fite         ###   ########.fr       */
+/*   Updated: 2025/12/19 21:15:25 by dde-fite         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -180,6 +180,10 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 // ft_isspace
 // Returns true if the character is within the range of spaces.
 int		ft_isspace(int c);
+
+// ft_issign
+// Returns true if the caracter is '-' or '+'
+int		ft_issign(char c);
 
 // ft_minnbr
 int		ft_minnbr(int n1, int n2);

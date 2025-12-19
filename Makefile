@@ -6,7 +6,7 @@
 #    By: dde-fite <dde-fite@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/15 21:44:11 by dde-fite          #+#    #+#              #
-#    Updated: 2025/12/16 23:55:15 by dde-fite         ###   ########.fr        #
+#    Updated: 2025/12/19 21:15:59 by dde-fite         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ SRC			= ft_atoi.c ft_isspace.c ft_memmove.c ft_split.c ft_strmapi.c \
 				ft_isdigit.c ft_memcmp.c ft_putnbr_fd.c ft_strlcpy.c \
 				ft_substr.c ft_isprint.c ft_memcpy.c ft_putstr_fd.c \
 				ft_strlen.c ft_tolower.c ft_nbrlen.c ft_atol.c ft_sqrt.c \
-				ft_abs.c
+				ft_abs.c ft_issign.c
 OBJ			:= $(patsubst %.c,%.o,$(SRC))
 TOTAL		:= $(words $(SRC))
 
