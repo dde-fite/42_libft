@@ -7,7 +7,8 @@
 <p align="center">
 	<img alt="moulinette passing" src="https://img.shields.io/badge/moulinette-passing-gree">
 	<img alt="francinette passing" src="https://img.shields.io/badge/francinette-passing-gree">
-    <img alt="Static Badge" src="https://img.shields.io/badge/125/100-gree?logo=42&logoColor=white">
+    <img alt="score 125/100" src="https://img.shields.io/badge/125/100-gree?logo=42&logoColor=white">
+	<img src="https://codestats.cloud.defitero.com/api/badge/nora.defitero/interval:any/project:42_libft">
 </p>
 
 <p align="center">
